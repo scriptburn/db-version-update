@@ -1,0 +1,22 @@
+{
+  "name": "scriptburn/db-version-update",
+  "description": "Package to update db structure acording to a target package version",
+  "keywords": ["db", "version"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Rajneesh ojha",
+      "email": "contact@scriptburn.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+     "scriptburn/db-settings":">=1.0",
+  "scriptburn/simple-debug":">=1.0"
+  },
+  "autoload": {
+    "psr-4": {
+            "Scriptburn\\": "src/"
+    }
+  }
+}
