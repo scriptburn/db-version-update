@@ -5,7 +5,7 @@ class UpdateDb
 {
     protected $settings, $pdo, $versionData;
 
-    public function __construct(\ScriptBurn\Settings $settings, $pdo, $versionData = null)
+    public function __construct(\ScriptBurn\Setting\Setting $settings, $pdo, $versionData = null)
     {
         $this->settings = $settings;
         $this->pdo      = $pdo;
